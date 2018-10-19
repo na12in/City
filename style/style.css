@@ -1,27 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-   background-color: #4e3273;
+    background-color: #ffffff;
 }
 
-
-
-
-
-  .background{
-    
-  
+.background{
     width: 100%;
     height: 100%;
-  background-position: center;
- 
-   overflow: hidden;
+    background-position: center;
+    overflow: hidden;
     background-attachment: fixed;
     position: relative;
- 
- 
-    
-   
 }
 
 .background:before{
@@ -33,7 +22,6 @@ body{
     height: 100%;
     background-image: url("img.png");
     background-position: center;
-    
     transition: all 8s;
     animation: increase 20s infinite linear;
 }
@@ -41,26 +29,18 @@ body{
   @keyframes increase {
     0% {transform: scale(1);}
     100% {transform: scale(1.5);}
-    
+}
 
-  }
-
-
-
-
- 
 .title{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-top: 50%;
-text-align: center;
-margin: 0 auto;
-color: white;
-font-size: 80px;
-font-weight: 600;
-  position: relative;
-  text-transform: uppercase;
-
-  
+    top: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
 }
 
 .title:before, .napis:after{
@@ -72,16 +52,14 @@ font-weight: 600;
     overflow:hidden;
     background-color: transparent;
     color: white;
-
-
-
 }
 
 .title:before{
- left: 8px;
- text-shadow:  2px 0 #00ffea;
- animation: effect 3s infinite linear;
+    left: 8px;
+    text-shadow:  2px 0 #00ffea;
+    animation: effect 3s infinite linear;
 }
+
 .title:after{
     left: 4px;
     text-shadow:  -2px 0 #00ffea;
@@ -110,11 +88,9 @@ font-weight: 600;
     30%{
         clip:rect(48px,9999px,77px,0);
     }
-
     35%{
         clip:rect(50px,9999px,34px,0);
     }
-
     40%{
         clip:rect(60px,9999px,72px,0);
     }
